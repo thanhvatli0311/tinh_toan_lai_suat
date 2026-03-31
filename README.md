@@ -1,10 +1,9 @@
 # tinh_toan_lai_suat
-
-📘 Máy Tính Lãi Suất (Interest Rate Calculator)
+Máy Tính Lãi Suất
 
 Ứng dụng di động giúp người dùng tính toán thời gian cần thiết để số tiền đầu tư tăng gấp đôi dựa trên lãi suất kép hàng năm. Đây là bài tập thực hành lập trình di động bằng framework Flutter.
 
-✨ Tính năng chính
+Tính năng chính
 
 Tính toán thông minh: Tự động tính số năm để tài sản gấp đôi dựa trên công thức lãi kép.
 
@@ -18,7 +17,7 @@ Liên hệ: Tích hợp gọi điện, gửi email và bản đồ.
 
 Mã nguồn: Liên kết trực tiếp đến kho lưu trữ GitHub.
 
-🛠 Công nghệ sử dụng
+Công nghệ sử dụng
 
 Framework: Flutter
 
@@ -32,11 +31,11 @@ Công thức toán học
 
 Ứng dụng sử dụng công thức logarit để tìm số năm (n):
 
-n = ln(
+n = ln(2)/ln(1+r)
 
-Trong đó $r$ là lãi suất hàng năm.
+Trong đó r là lãi suất hàng năm.
 
-🚀 Hướng dẫn cài đặt
+Hướng dẫn cài đặt
 
 Clone repository:
 
@@ -51,8 +50,6 @@ flutter pub get
 Chạy ứng dụng:
 
 vào terminal
-
-
 
 flutter run
 
