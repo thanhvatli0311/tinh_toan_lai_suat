@@ -1,17 +1,69 @@
 # tinh_toan_lai_suat
 
-A new Flutter project.
+📘 Máy Tính Lãi Suất (Interest Rate Calculator)
 
-## Getting Started
+Ứng dụng di động giúp người dùng tính toán thời gian cần thiết để số tiền đầu tư tăng gấp đôi dựa trên lãi suất kép hàng năm. Đây là bài tập thực hành lập trình di động bằng framework Flutter.
 
-This project is a starting point for a Flutter application.
+✨ Tính năng chính
 
-A few resources to get you started if this is your first Flutter project:
+Tính toán thông minh: Tự động tính số năm để tài sản gấp đôi dựa trên công thức lãi kép.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Giao diện hiện đại: Thiết kế theo phong cách Material Design 3, thân thiện với người dùng.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Menu chức năng (Drawer):
+
+Giới thiệu: Thông tin về ứng dụng và phiên bản.
+
+Liên hệ: Tích hợp gọi điện, gửi email và bản đồ.
+
+Mã nguồn: Liên kết trực tiếp đến kho lưu trữ GitHub.
+
+🛠 Công nghệ sử dụng
+
+Framework: Flutter
+
+Ngôn ngữ: Dart
+
+Thư viện hỗ trợ: * url_launcher: Xử lý liên kết ngoài (Phone, Email, Website).
+
+math: Xử lý các hàm toán học logarit.
+
+Công thức toán học
+
+Ứng dụng sử dụng công thức logarit để tìm số năm (n):
+
+n = ln(
+
+Trong đó $r$ là lãi suất hàng năm.
+
+🚀 Hướng dẫn cài đặt
+
+Clone repository:
+
+Bash
+
+git clone https://github.com/thanhvatli0311/tinh_toan_lai_suat.git
+
+Cài đặt dependencies:
+
+flutter pub get
+
+Chạy ứng dụng:
+
+vào terminal
+
+
+
+flutter run
+
+Thông tin sinh viên
+
+Họ và tên: Nguyễn Văn Tâm
+
+Mã sinh viên: 20223183
+
+Lớp: DCCNTT 13.10.16
+
+Trường: Đại học Công nghệ Đông Á
+
+Dự án được thực hiện nhằm mục đích học tập và nghiên cứu.
